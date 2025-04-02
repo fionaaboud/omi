@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 30% 98%;
+    --foreground: 30 10% 15%;
+
+    --card: 45 30% 98%;
+    --card-foreground: 30 10% 15%;
+
+    --popover: 45 30% 98%;
+    --popover-foreground: 30 10% 15%;
+
+    --primary: 30 40% 40%;
+    --primary-foreground: 45 30% 98%;
+
+    --secondary: 120 10% 70%;
+    --secondary-foreground: 30 10% 15%;
+
+    --muted: 30 10% 90%;
+    --muted-foreground: 30 10% 40%;
+
+    --accent: 120 15% 80%;
+    --accent-foreground: 30 10% 15%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 45 30% 98%;
+
+    --border: 30 10% 85%;
+    --input: 30 10% 85%;
+    --ring: 30 40% 40%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 30 10% 15%;
+    --foreground: 45 30% 98%;
+
+    --card: 30 10% 15%;
+    --card-foreground: 45 30% 98%;
+
+    --popover: 30 10% 15%;
+    --popover-foreground: 45 30% 98%;
+
+    --primary: 30 40% 40%;
+    --primary-foreground: 45 30% 98%;
+
+    --secondary: 120 10% 25%;
+    --secondary-foreground: 45 30% 98%;
+
+    --muted: 30 10% 25%;
+    --muted-foreground: 30 10% 70%;
+
+    --accent: 120 15% 25%;
+    --accent-foreground: 45 30% 98%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 45 30% 98%;
+
+    --border: 30 10% 30%;
+    --input: 30 10% 30%;
+    --ring: 30 40% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.bg-cream-50 {
+  background-color: #f5f0e0;
+}
+
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e6dfd0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-logo {
+  background-color: #f5f0e0;
+}
+
