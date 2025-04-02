@@ -1,0 +1,73 @@
+\# 👶 Parent Whisperer
+
+**Parent Whisperer** 
+is your personal AI-powered parenting companion, designed to support, guide, and uplift parents through the challenges and joys of raising young children. 
+Built on the Omi platform, Parent Whisperer offers real-time coaching, personalized insights, and captures precious moments effortlessly in your "Memory Book."
+
+## 🌟 Key Features
+
+- **Real-Time Parenting Coaching:** Immediate tips, techniques, and emotional support when you need it most.
+- **Memory Book Integration:** Automatically captures and organizes memorable moments and funny quotes from your child, sorted by date.
+- **Holistic Parenting Approaches:** Blending Montessori, gentle parenting, and evidence-based child development practices.
+- **Personalized Insights:** Tailored recommendations based on your child's developmental stage and your parenting style.
+- **Burnout Prevention:** Smart detection of stress, fatigue, and cognitive overload to proactively suggest self-care strategies and resources.
+
+## 🚀 Getting Started
+
+### Installation
+
+Clone this repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/parent-whisperer.git
+cd parent-whisperer
+```
+
+### Setup & Configuration
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Configure your environment by creating a `.env` file:
+
+```env
+OMI_API_KEY=your-omi-api-key
+FIREBASE_CONFIG=your-firebase-config
+MEMORY_WEBHOOK_URL=your-memory-webhook-url
+```
+
+3. Run locally for development:
+```bash
+npm start
+```
+
+## 🌱 Tech Stack
+
+- **Frontend:** Flutter, React, Tailwind CSS
+- **Backend:** Firebase, Google Cloud Platform
+- **AI Integration:** Omi Platform
+
+## 🛠 Contributing
+
+We warmly welcome contributions!
+
+- Fork the repository
+- Create a new branch: `git checkout -b feature-name`
+- Commit your changes: `git commit -m "Feature description"`
+- Push your branch: `git push origin feature-name`
+- Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## ✨ Contact
+
+For any questions or collaboration opportunities, please reach out:
+
+- **GitHub:** [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+- **Email:** your.email@example.com
+
+Thank you for helping build happier parenting experiences!
+
